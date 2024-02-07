@@ -23,6 +23,9 @@ export default function Layout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/discuss.svg" type="image/svg+xml" />
+      </head>
       <body className={inter.className}>
         <Providers>
           {modal}
