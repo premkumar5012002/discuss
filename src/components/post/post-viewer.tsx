@@ -4,10 +4,11 @@ import { FC, useMemo } from "react";
 import { JSONContent } from "@tiptap/react";
 import { generateHTML } from "@tiptap/html";
 import StarterKit from "@tiptap/starter-kit";
+import Link from "@tiptap/extension-link";
 
 export const PostViewer: FC<{ content: JSONContent }> = ({ content }) => {
   const output = useMemo(() => {
-    return generateHTML(content, [StarterKit]);
+    return generateHTML(content, [StarterKit, Link]);
   }, [content]);
 
   return (
