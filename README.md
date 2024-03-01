@@ -2,6 +2,10 @@
 
 Built with the Next.js App Router, TypeScript & Tailwind
 
+## Screenshots
+
+![App Screenshot](https://premkumar.vercel.app/_next/image?url=%2Fscreenshots%2Fdiscuss.webp&w=1080&q=75)
+
 ## Featuers
 
 - Infinite scrolling for dynamically loading posts.
