@@ -1,4 +1,10 @@
-import { Comment, Post, Subreddit, User, Vote } from "@prisma/client";
+import {
+  Comment,
+  Post,
+  Subreddit,
+  User,
+  Vote,
+} from "~/prisma/generated/client";
 
 export type ExtendedPost = Post & {
   subreddit: Subreddit;

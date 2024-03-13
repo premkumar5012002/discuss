@@ -11,7 +11,7 @@ import {
   useDisclosure,
 } from "@nextui-org/react";
 import debounce from "lodash.debounce";
-import { Prisma, Subreddit } from "@prisma/client";
+import { Prisma, Subreddit } from "~/prisma/generated/client";
 import { IconLoader2, IconSearch } from "@tabler/icons-react";
 import { useQuery } from "@tanstack/react-query";
 import axios from "axios";

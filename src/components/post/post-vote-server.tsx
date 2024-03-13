@@ -1,4 +1,4 @@
-import { Post, Vote } from "@prisma/client";
+import { Post, Vote } from "~/prisma/generated/client";
 import { notFound } from "next/navigation";
 import { FC } from "react";
 

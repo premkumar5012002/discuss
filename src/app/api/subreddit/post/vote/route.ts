@@ -1,11 +1,11 @@
 import { z } from "zod";
 
+import { db } from "@/lib/db";
+import { redis } from "@/lib/redis";
+import { CachedPost } from "@/types/redis";
 import { getAuthSession } from "@/lib/auth";
 import { PostVoteValidator } from "@/lib/validators/vote";
-import { db } from "@/lib/db";
-import { CachedPost } from "@/types/redis";
-import { redis } from "@/lib/redis";
-import { Post, User, Vote, VoteType } from "@prisma/client";
+import { Post, User, Vote, VoteType } from "~/prisma/generated/client";
 
 const CACHE_AFTER_UPVOTES = 1;
 

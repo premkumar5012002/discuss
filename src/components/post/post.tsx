@@ -1,6 +1,6 @@
 import { FC, useRef } from "react";
 import Link from "next/link";
-import { Vote } from "@prisma/client";
+import { Vote } from "~/prisma/generated/client";
 import { Card } from "@nextui-org/react";
 import {
   IconDots,

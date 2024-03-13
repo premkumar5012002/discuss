@@ -1,7 +1,7 @@
 "use client";
 
 import { FC, useEffect, useState } from "react";
-import { VoteType } from "@prisma/client";
+import { VoteType } from "~/prisma/generated/client";
 import { useMutation } from "@tanstack/react-query";
 import axios, { AxiosError } from "axios";
 import { Button } from "@nextui-org/react";

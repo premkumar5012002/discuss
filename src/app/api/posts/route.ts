@@ -1,8 +1,8 @@
 import { z } from "zod";
-import { Prisma } from "@prisma/client";
+import { Prisma } from "~/prisma/generated/client";
 
-import { getAuthSession } from "@/lib/auth";
 import { db } from "@/lib/db";
+import { getAuthSession } from "@/lib/auth";
 
 export async function GET(req: Request) {
   const url = new URL(req.url);

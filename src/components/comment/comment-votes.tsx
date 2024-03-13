@@ -2,7 +2,7 @@
 
 import { toast } from "sonner";
 import axios, { AxiosError } from "axios";
-import { VoteType } from "@prisma/client";
+import { VoteType } from "~/prisma/generated/client";
 import { Button } from "@nextui-org/react";
 import { FC, useEffect, useState } from "react";
 import { useMutation } from "@tanstack/react-query";

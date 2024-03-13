@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useQuery } from "@tanstack/react-query";
 import { Avatar, Button } from "@nextui-org/react";
 import { FC, useMemo, useRef, useState } from "react";
-import { Comment, CommentVote, User } from "@prisma/client";
+import { Comment, CommentVote, User } from "~/prisma/generated/client";
 
 import {
   IconLoader2,

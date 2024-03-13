@@ -1,6 +1,6 @@
 import { FC, Suspense } from "react";
 import { notFound } from "next/navigation";
-import { Post, User } from "@prisma/client";
+import { Post, User } from "~/prisma/generated/client";
 import { Button, Card, Divider, Link, Skeleton } from "@nextui-org/react";
 
 import {
